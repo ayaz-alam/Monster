@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 331205505}
   - component: {fileID: 331205504}
   m_Layer: 5
-  m_Name: scared (1)
+  m_Name: Happy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -386,7 +386,6 @@ GameObject:
   - component: {fileID: 419419787}
   - component: {fileID: 419419786}
   - component: {fileID: 419419785}
-  - component: {fileID: 419419788}
   m_Layer: 5
   m_Name: Left
   m_TagString: Untagged
@@ -495,20 +494,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 419419783}
   m_CullTransparentMesh: 0
---- !u!114 &419419788
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 419419783}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 837220cd9c80b0e4da5202c6f253a72b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scrollScript: {fileID: 2116013834}
-  isDownButton: 0
 --- !u!1 &448035624
 GameObject:
   m_ObjectHideFlags: 0
@@ -1714,6 +1699,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1241450398}
+  - component: {fileID: 1241450399}
   m_Layer: 5
   m_Name: Content
   m_TagString: Untagged
@@ -1746,6 +1732,24 @@ RectTransform:
   m_AnchoredPosition: {x: 862.4, y: -253}
   m_SizeDelta: {x: 1724.9, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1241450399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241450397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48201e4030923d8499c32d9081e46565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Angry: {fileID: 2019420535}
+  Amazed: {fileID: 1097887453}
+  Sad: {fileID: 1426882062}
+  Disgusted: {fileID: 933893353}
+  Happy: {fileID: 331205504}
+  Scared: {fileID: 2104172197}
 --- !u!1 &1262886622
 GameObject:
   m_ObjectHideFlags: 0
@@ -1916,7 +1920,6 @@ GameObject:
   - component: {fileID: 1421877015}
   - component: {fileID: 1421877014}
   - component: {fileID: 1421877013}
-  - component: {fileID: 1421877016}
   m_Layer: 5
   m_Name: Right
   m_TagString: Untagged
@@ -2025,20 +2028,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1421877011}
   m_CullTransparentMesh: 0
---- !u!114 &1421877016
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1421877011}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 837220cd9c80b0e4da5202c6f253a72b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  scrollScript: {fileID: 2116013834}
-  isDownButton: 1
 --- !u!1 &1426882056
 GameObject:
   m_ObjectHideFlags: 0
@@ -2488,7 +2477,6 @@ GameObject:
   - component: {fileID: 2019420532}
   - component: {fileID: 2019420531}
   - component: {fileID: 2019420535}
-  - component: {fileID: 2019420533}
   m_Layer: 5
   m_Name: angry
   m_TagString: Untagged
@@ -2553,18 +2541,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2019420529}
   m_CullTransparentMesh: 0
---- !u!114 &2019420533
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2019420529}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be69846a82ad0444c989f393bb971ab4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &2019420535
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2621,6 +2597,7 @@ GameObject:
   - component: {fileID: 2070062470}
   - component: {fileID: 2070062472}
   - component: {fileID: 2070062471}
+  - component: {fileID: 2070062473}
   m_Layer: 5
   m_Name: background
   m_TagString: Untagged
@@ -2690,6 +2667,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2070062469}
   m_CullTransparentMesh: 0
+--- !u!114 &2070062473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070062469}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d903d69407df4dd4fb9ade73fed77cfe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Left: {fileID: 419419785}
+  Right: {fileID: 1421877013}
+  scrollScript: {fileID: 2116013834}
 --- !u!1 &2104172191
 GameObject:
   m_ObjectHideFlags: 0

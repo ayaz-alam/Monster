@@ -11,7 +11,6 @@ public class OddOneOutClick : MonoBehaviour, IPointerDownHandler
     {
         preferences = new PlayerStats();
     }
-    private int i = 0;
     public void OnPointerDown(PointerEventData eventData)
     {
         string name = gameObject.name;

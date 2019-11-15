@@ -43,7 +43,7 @@ public class LevelConstants
         {
            
             int x= Random.Range(SIDE_MARGINS, WIDTH-SIDE_MARGINS);
-            int y = Random.Range(SIDE_MARGINS, HEIGHT-SIDE_MARGINS);
+            int y = Random.Range(SIDE_MARGINS, HEIGHT-SIDE_MARGINS-40);
             
             arr[i] = new Vector2(x, y);
             int j = 0;
